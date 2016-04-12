@@ -83,6 +83,7 @@ public class ClearEditText extends AppCompatEditText implements TextWatcher, Vie
         final int x = (int) motionEvent.getX();
         if (clearDrawable.isVisible() && x > getWidth() - getPaddingRight() - clearDrawable.getIntrinsicWidth()) {
             if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                setError(null);
                 setText(null);
             }
             return true;
