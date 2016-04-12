@@ -15,14 +15,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="텍스트를 입력해주세요"
-
         />
 
     <com.gun0912.clearedittext.ClearEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="텍스트를 입력해주세요"
-
         />
 
 
